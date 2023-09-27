@@ -355,3 +355,16 @@ a:visited {
     top: -100px;
   }
 }
+
+@media screen and (min-width: 1336px) and (max-width: 1440px) {
+  .hero-content {
+    flex-shrink: 0;
+    flex-basis: 398px;
+  }
+
+  .hero-img-desktop-right {
+    position: relative;
+    left: 10px;
+    top: -55px;
+  }
+}
