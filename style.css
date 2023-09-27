@@ -319,3 +319,13 @@ a:visited {
     padding: 36px 39px;
   }
 }
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .hero-section {
+    margin-top: -25%;
+  }
+
+  .hero-img-desktop-right {
+    left: 100px;
+  }
+}
